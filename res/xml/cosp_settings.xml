@@ -55,6 +55,13 @@
     <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
-            android:fragment="com.kcuf.settings.fragments.NavbarSettings"
+            android:fragment="com.cosp.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
+			
+    <!-- Power Menu -->
+    <Preference
+            android:key="powermenu__category"
+            android:title="@string/powermenu_title"
+            android:fragment="com.cosp.settings.fragments.PowermenuSettings"
+            android:icon="@drawable/ic_settings_powermenu"/>
 </PreferenceScreen>
