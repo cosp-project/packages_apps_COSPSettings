@@ -28,6 +28,7 @@ import android.view.Surface;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import com.android.settings.R;
+import com.cosp.settings.preferences.Utils;
 
 import com.android.settings.SettingsPreferenceFragment;
 
@@ -38,6 +39,8 @@ public class COSPSettings extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+        final String KEY_DEVICE_PART = "device_part";
+        final String KEY_DEVICE_PART_PACKAGE_NAME = "org.omnirom.device";
 
         addPreferencesFromResource(R.xml.cosp_settings);
 		
@@ -58,6 +61,10 @@ public class COSPSettings extends SettingsPreferenceFragment {
                     "android.hardware.sensor.assist")) {
                 getPreferenceScreen().removePreference(ActiveEdge);
             }
+
+        // DeviceParts
+        if (!Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
+            getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
         }
 
     }

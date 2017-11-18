@@ -27,6 +27,7 @@
     <string name="active_edge_title">Active Edge</string>
     <string name="readingmode_title">Reading Mode</string>
     <string name="button_title">Buttons</string>
+    <string name="device_part_title">Device features</string>
 	
     <!-- OTA -->
     <string name="updates_title">Updater</string>
