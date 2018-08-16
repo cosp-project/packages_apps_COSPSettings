@@ -18,6 +18,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/cosp_settings_title" >
+	
+	<PreferenceCategory
+        android:key="cosp_category"
+        android:title="@string/cosp_title">
 
     <!-- OTA -->
     <Preference
@@ -31,11 +35,20 @@
                 android:targetClass="com.updates.MainActivity" />
     </Preference>
 
+	</PreferenceCategory>
+	
     <!-- Status Bar -->
     <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="com.cosp.settings.fragments.StatusbarSettings"
             android:icon="@drawable/ic_settings_statusbar"/>
+			
+	<!-- Lockscreen -->
+    <Preference
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title"
+            android:fragment="com.cosp.settings.fragments.LockscreenSettings"
+            android:icon="@drawable/ic_settings_lockscreen"/>
 
 </PreferenceScreen>

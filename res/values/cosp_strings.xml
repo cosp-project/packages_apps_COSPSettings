@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
     <string name="cosp_settings_title">COSP Settings</string>
+	<string name="cosp_title">General COSP stuff</string>
 
     <!-- Categories -->
     <string name="animation_title">Animations</string>
@@ -43,4 +44,8 @@
 
     <!--Status Bar -->
     <string name="statusbar_items_title">StatusBar Items</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 </resources>
