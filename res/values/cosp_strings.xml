@@ -34,4 +34,13 @@
     <!-- OTA -->
     <string name="updates_title">Updater</string>
     <string name="updates_summary">Check for COSP updates</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!--Status Bar -->
+    <string name="statusbar_items_title">StatusBar Items</string>
 </resources>
