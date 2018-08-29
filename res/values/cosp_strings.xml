@@ -20,15 +20,15 @@
     <string name="cosp_title">General COSP stuff</string>
 
     <!-- Categories -->
-    <string name="statusbar_title">Status Bar</string>
-    <string name="lockscreen_title">Lock Screen</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="navbar_title">Navigation Bar</string>
     <string name="active_edge_title">Active Edge</string>
-    <string name="readingmode_title">Reading Mode</string>
     <string name="button_title">Buttons</string>
     <string name="device_part_title">Device features</string>
+    <string name="gestures_title">Gestures</string>
+    <string name="lockscreen_title">Lock Screen</string>
+    <string name="navbar_title">Navigation Bar</string>
     <string name="notifications_title">Notifications</string>
+    <string name="readingmode_title">Reading Mode</string>
+    <string name="statusbar_title">Status Bar</string>
 	
     <!-- OTA -->
     <string name="updates_title">Updater</string>
@@ -233,4 +233,7 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+
+    <!-- Notifications -->
+    <string name="notification_light_settings">Notifications light</string>
 </resources>
