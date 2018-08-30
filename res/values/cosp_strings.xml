@@ -57,9 +57,6 @@
     <string name="volte_icon_summary">Display VoLTE/VoWiFi icon</string>
     <string name="show_fourg_icon_title">4G icon</string>
     <string name="show_fourg_icon_summary">Display 4G icon instead of LTE icon</string> 
-<<<<<<< HEAD
-    <string name="ignore_rssnr_title">Ignore RSSNR</string>
-    <string name="ignore_rssnr_summary">Ignore RSSNR in LTE signal strength calculation</string>
     <string name="status_bar_clock">Clock and Date</string>
     <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
     <string name="status_bar_clock_title">Clock settings</string>
@@ -88,9 +85,6 @@
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
     
-=======
-
->>>>>>> parent of 7d4b432... Ignore RSSNR in LTE signal strength calculation [2/2]
     <!-- Lockscreen  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
@@ -112,6 +106,14 @@
     <string name="gesture_action_timeout_summary">Timeout before the gesture action is started</string>
     <string name="unit_msec" translatable="false">ms</string>
     <string name="unit_px" translatable="false">px</string>
+    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
+    <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
+    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
+    <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="torch_long_press_power_timeout_1min">1 minute</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
 	
     <!-- Navigation bar -->
     <string name="navbar_tuner_title">Navbar buttons</string>
