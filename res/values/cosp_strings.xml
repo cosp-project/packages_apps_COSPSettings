@@ -52,4 +52,7 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
+
+    <!-- Gestures -->	
+    <string name="gesture_preference_cosp">AOSP gestures</string>
 </resources>
