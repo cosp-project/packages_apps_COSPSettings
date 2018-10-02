@@ -47,5 +47,15 @@
         android:title="@string/show_fourg_icon_title"
         android:summary="@string/show_fourg_icon_summary"
         android:defaultValue="false"/>
+        
+    <PreferenceCategory
+            android:key="other"
+            android:title="@string/other" >
+        <com.cosp.settings.preferences.SystemSettingSwitchPreference
+            android:key="ignore_rssnr"
+            android:title="@string/ignore_rssnr_title"
+            android:summary="@string/ignore_rssnr_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
