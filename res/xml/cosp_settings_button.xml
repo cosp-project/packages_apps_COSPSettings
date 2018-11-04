@@ -19,6 +19,13 @@
     android:title="@string/button_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- Volume keys control media stream -->
+    <com.cosp.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_keys_control_ring_tone"
+        android:title="@string/volume_keys_control_ring_tone_title"
+        android:summary="@string/volume_keys_control_ring_tone_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="hardware_keys"
         android:title="@string/hardware_keys_category" >
