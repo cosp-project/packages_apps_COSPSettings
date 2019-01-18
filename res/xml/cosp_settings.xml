@@ -31,8 +31,8 @@
                 android:targetClass="com.updates.MainActivity" />
     </Preference>
 
-        <!-- Status Bar -->
-        <com.cosp.settings.preferences.CardviewPreference
+    <!-- Status Bar -->
+    <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="com.cosp.settings.fragments.StatusbarSettings"
