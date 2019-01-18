@@ -30,4 +30,8 @@
     <string name="recents_title">Recents Apps</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="notifications_title">Notifications</string>
+	
+    <!-- OTA -->
+    <string name="updates_title">Updater</string>
+    <string name="updates_summary">Check for COSP updates</string>
 </resources>

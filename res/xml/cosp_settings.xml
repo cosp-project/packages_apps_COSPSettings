@@ -19,6 +19,18 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/cosp_settings_title" >
 
+    <!-- OTA -->
+    <Preference
+        android:key="updates"
+        android:title="@string/updates_title"
+        android:summary="@string/updates_summary"
+        android:icon="@drawable/ic_updates"
+        android:order="-10">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.updates"
+                android:targetClass="com.updates.MainActivity" />
+    </Preference>
+
         <!-- Status Bar -->
         <com.cosp.settings.preferences.CardviewPreference
             android:key="statusbar_category"
