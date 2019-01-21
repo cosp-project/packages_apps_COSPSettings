@@ -51,10 +51,4 @@
             android:fragment="com.cosp.settings.fragments.LockscreenSettings"
             android:icon="@drawable/ic_settings_lockscreen"/>
 
-    <!-- Navigation Bar -->
-    <Preference
-            android:key="navigationbar_category"
-            android:title="@string/navbar_title"
-            android:fragment="com.kcuf.settings.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
 </PreferenceScreen>
