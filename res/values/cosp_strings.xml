@@ -22,9 +22,6 @@
     <!-- Categories -->
     <string name="lockscreen_title">Lock Screen</string>
     <string name="statusbar_title">Status Bar</string>
-    <string name="navbar_title">Navigation Bar</string>
-    <string name="powermenu_title">Power Menu</string>
-    <string name="gestures_title">Gestures</string>
 	
     <!-- OTA -->
     <string name="updates_title">Updater</string>
