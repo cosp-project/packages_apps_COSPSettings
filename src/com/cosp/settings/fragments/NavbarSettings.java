@@ -50,7 +50,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.COSP_SETTINGS;
+        return MetricsProto.MetricsEvent.KCUF_SETTINGS;
     }
 
     @Override
