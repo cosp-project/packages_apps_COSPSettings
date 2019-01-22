@@ -62,5 +62,8 @@
     <string name="gesture_settings_info">Navigation bar must be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLast app\n- Short swipe up and hold in the center</string>
 
     <string name="navbar_tuner_title">Navbar buttons</string>
+	
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Enable navigation bar</string>
 
 </resources>
