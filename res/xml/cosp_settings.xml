@@ -50,5 +50,12 @@
             android:title="@string/lockscreen_title"
             android:fragment="com.cosp.settings.fragments.LockscreenSettings"
             android:icon="@drawable/ic_settings_lockscreen"/>
+			
+	<!-- Gestures -->
+    <Preference
+            android:key="gestures_category"
+            android:title="@string/gestures_title"
+            android:fragment="com.cosp.settings.fragments.GestureSettings"
+            android:icon="@drawable/ic_settings_gestures"/>
 
 </PreferenceScreen>
