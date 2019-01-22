@@ -23,6 +23,7 @@
     <string name="lockscreen_title">Lock Screen</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="gestures_title">Gestures</string>
+    <string name="navbar_title">Navigation Bar</string>
 	
     <!-- OTA -->
     <string name="updates_title">Updater</string>
@@ -53,4 +54,13 @@
 	
     <!-- Gestures -->	
     <string name="gesture_preference_cosp">AOSP gestures</string>
+	
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Navigation gestures</string>
+    <string name="gesture_settings_summary">Use bottom swipe up gestures for navigation</string>
+    <string name="use_bottom_gesture_title">Swipe up gestures</string>
+    <string name="gesture_settings_info">Navigation bar must be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLast app\n- Short swipe up and hold in the center</string>
+
+    <string name="navbar_tuner_title">Navbar buttons</string>
+
 </resources>

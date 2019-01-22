@@ -57,5 +57,12 @@
             android:title="@string/gestures_title"
             android:fragment="com.cosp.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gestures"/>
+			
+    <!-- Navigation Bar -->
+    <Preference
+            android:key="navigationbar_category"
+            android:title="@string/navbar_title"
+            android:fragment="com.cosp.settings.fragments.NavbarSettings"
+            android:icon="@drawable/ic_settings_navbar"/>
 
 </PreferenceScreen>

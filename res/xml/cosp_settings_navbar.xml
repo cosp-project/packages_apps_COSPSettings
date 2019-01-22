@@ -16,19 +16,14 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/gestures_title"
+    android:title="@string/navbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+
     <Preference
-        android:key="gesture_settings"
-        android:title="@string/gesture_preference_cosp"
-        android:fragment="com.android.settings.gestures.GestureSettings"
-        settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
-		
-    <Preference
-        android:key="gesture_settings"
-        android:title="@string/gesture_settings_title"
-        android:summary="@string/gesture_settings_summary"
-        android:fragment="com.cosp.settings.fragments.OmniGestureSettings" />
-		
+            android:title="@string/navbar_tuner_title" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.NavBarEditor" />
+    </Preference>
 </PreferenceScreen>
