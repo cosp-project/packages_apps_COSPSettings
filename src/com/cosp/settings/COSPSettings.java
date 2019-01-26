@@ -21,10 +21,12 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.Surface;
-import android.preference.Preference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
 import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
@@ -36,6 +38,15 @@ public class COSPSettings extends SettingsPreferenceFragment {
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.cosp_settings);
+		
+		PackageManager pm = getPackageManager();
+
+        try {
+            pm.getPackageInfo("com.updates", PackageManager.GET_ACTIVITIES);
+        }
+        catch (PackageManager.NameNotFoundException e) {
+            getPreferenceManager().findPreference("updates").setVisible(false);
+        }
     }
 
     @Override
