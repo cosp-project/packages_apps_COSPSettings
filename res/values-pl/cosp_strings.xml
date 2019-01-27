@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 208 The COSP Rom
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="cosp_settings_title">Ustawienia COSP</string>
+	<string name="cosp_title">Poprawki i dodatki COSP</string>
+
+    <!-- Categories -->
+    <string name="lockscreen_title">Ekran blokady</string>
+    <string name="statusbar_title">Pasek statusu</string>
+    <string name="gestures_title">Gesty</string>
+    <string name="navbar_title">Pasek nawigacji</string>
+	
+    <!-- OTA -->
+    <string name="updates_title">Aktualizacje</string>
+    <string name="updates_summary">Sprawdź aktualizacje COSP</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Anuluj</string>
+    <string name="save">Zapisz</string>
+
+    <!--Status Bar -->
+    <string name="statusbar_items_title">Ikony na pasku statusu</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Informacje o ładowaniu</string>
+    <string name="lockscreen_battery_info_summary">Wyświetlaj ustalane przez ładowarkę maks. napięcie, natężenie i obecną temperaturę baterii w trakcie ładowania na ekranie blokady</string>
+	
+	<!-- Network traffic -->
+    <string name="traffic_title">Wskaźniki ruchu sieciowego</string>
+    <string name="network_traffic_title">Ruch sieciowy</string>
+    <string name="network_traffic_type">Wybierz typ aktywności</string>
+    <string name="show_network_traffic_up">Wysyłanie</string>
+    <string name="show_network_traffic_down">Pobieranie</string>
+    <string name="show_network_traffic_all">Obydwa</string>
+    <string name="network_traffic_state_title">Pokaż statystyki sieci na pasku statusu</string>
+    <string name="network_traffic_autohide_threshold_title">Próg ukrywania aktualnej prędkości sieci (KB/s)</string>
+	
+    <!-- Gestures -->	
+    <string name="gesture_preference_cosp">Gesty AOSP</string>
+	
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Gesty nawigacyjne</string>
+    <string name="gesture_settings_summary">Użyj gestów przesunięcia w dół, by nawigować</string>
+    <string name="use_bottom_gesture_title">Gesty przeciągnięcia</string>
+    <string name="gesture_settings_info">Pasek nawigacji musi być wyłączony!\n\nDostępne gesty:\n\nWstecz\n- Przesuń od lewej lub prawej strony\n\nEkran główny\n- Przesuń do środka\n\nOstatnie aplikacje\n- Przesuń do środka i przytrzymaj\n\nOstatnio otwarta aplikacja\n- Szybko przeciągnij i przytrzymaj na środku</string>
+
+    <string name="navbar_tuner_title">Przyciski nawigacji</string>
+	
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Włącz pasek nawigacji</string>
+
+</resources>
