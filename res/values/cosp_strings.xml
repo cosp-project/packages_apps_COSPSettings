@@ -71,5 +71,6 @@
 	
     <!-- Toggle navigation bar -->
     <string name="navigation_bar_enabled_title">Enable navigation bar</string>
+    <string name="navbar_info">Restart SystemUI if you have problems after enabling/disabling navigation bar</string>
 
 </resources>
