@@ -60,10 +60,14 @@
     <string name="gesture_settings_summary">Użyj gestów przesunięcia w dół, by nawigować</string>
     <string name="use_bottom_gesture_title">Gesty przeciągnięcia</string>
     <string name="gesture_settings_info">Pasek nawigacji musi być wyłączony!\n\nDostępne gesty:\n\nWstecz\n- Przesuń od lewej lub prawej strony\n\nEkran główny\n- Przesuń do środka\n\nOstatnie aplikacje\n- Przesuń do środka i przytrzymaj\n\nOstatnio otwarta aplikacja\n- Szybko przeciągnij i przytrzymaj na środku</string>
-
+    <string name="gesture_swipe_length_title">Wysokość gestu przeciągnięcia</string>
+    <string name="gesture_swipe_length_summary">Wysokość od dołu ekranu do momentu wykonania gestu</string>
+    <string name="gesture_action_timeout_title">Opóźnienie po przeciągnięciu</string>
+    <string name="gesture_action_timeout_summary">Opóźnienie przed rozpoczęciem przypisanej apki</string>
     <string name="navbar_tuner_title">Przyciski nawigacji</string>
 	
     <!-- Toggle navigation bar -->
     <string name="navigation_bar_enabled_title">Włącz pasek nawigacji</string>
+    <string name="navbar_info">Zrestartuj SystemUI w razie problemów</string>
 
 </resources>
