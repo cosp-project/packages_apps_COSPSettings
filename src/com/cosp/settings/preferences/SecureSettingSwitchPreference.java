@@ -24,14 +24,17 @@ import android.util.AttributeSet;
 public class SecureSettingSwitchPreference extends SwitchPreference {
     public SecureSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
     public SecureSettingSwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
     public SecureSettingSwitchPreference(Context context) {
-        super(context, null);
+        super(context);
+        setPreferenceDataStore(new SecureSettingsStore(context.getContentResolver()));
     }
 
     @Override
@@ -58,7 +61,7 @@ public class SecureSettingSwitchPreference extends SwitchPreference {
 
     @Override
     protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
-        setChecked(Settings.System.getString(getContext().getContentResolver(), getKey()) != null ? getPersistedBoolean(isChecked())
+        setChecked(restoreValue ? getPersistedBoolean((Boolean) defaultValue)
                 : (Boolean) defaultValue);
     }
 }

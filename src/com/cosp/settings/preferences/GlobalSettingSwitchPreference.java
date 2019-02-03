@@ -24,14 +24,17 @@ import android.util.AttributeSet;
 public class GlobalSettingSwitchPreference extends SwitchPreference {
     public GlobalSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
+        setPreferenceDataStore(new GlobalSettingsStore(context.getContentResolver()));
     }
 
     public GlobalSettingSwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        setPreferenceDataStore(new GlobalSettingsStore(context.getContentResolver()));
     }
 
     public GlobalSettingSwitchPreference(Context context) {
-        super(context, null);
+        super(context);
+        setPreferenceDataStore(new GlobalSettingsStore(context.getContentResolver()));
     }
 
     @Override
@@ -58,7 +61,7 @@ public class GlobalSettingSwitchPreference extends SwitchPreference {
 
     @Override
     protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
-        setChecked(Settings.System.getString(getContext().getContentResolver(), getKey()) != null ? getPersistedBoolean(isChecked())
+        setChecked(restoreValue ? getPersistedBoolean((Boolean) defaultValue)
                 : (Boolean) defaultValue);
     }
 }
