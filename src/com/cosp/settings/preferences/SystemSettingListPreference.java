@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2017-2018 AICP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,27 +14,25 @@
  * limitations under the License.
  */
 
-package com.aosip.owlsnest.preference;
+package com.cosp.settings.preferences;
 
 import android.content.Context;
-import android.support.v7.preference.EditTextPreference;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
-public class SystemSettingEditTextPreference extends EditTextPreference {
-    private boolean mAutoSummary = false;
+public class SystemSettingListPreference extends ListPreference {
 
-    public SystemSettingEditTextPreference(Context context, AttributeSet attrs, int defStyle) {
+    public SystemSettingListPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingEditTextPreference(Context context, AttributeSet attrs) {
+    public SystemSettingListPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
         setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
-    public SystemSettingEditTextPreference(Context context) {
+    public SystemSettingListPreference(Context context) {
         super(context);
         setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
@@ -43,26 +41,9 @@ public class SystemSettingEditTextPreference extends EditTextPreference {
     protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
         // This is what default ListPreference implementation is doing without respecting
         // real default value:
-        //setText(restoreValue ? getPersistedString(mText) : (String) defaultValue);
+        //setValue(restoreValue ? getPersistedString(mValue) : (String) defaultValue);
         // Instead, we better do
-        setText(restoreValue ? getPersistedString((String) defaultValue) : (String) defaultValue);
+        setValue(restoreValue ? getPersistedString((String) defaultValue) : (String) defaultValue);
     }
 
-    @Override
-    public void setText(String text) {
-        super.setText(text);
-        if (mAutoSummary || TextUtils.isEmpty(getSummary())) {
-            setSummary(text, true);
-        }
-    }
-
-    @Override
-    public void setSummary(CharSequence summary) {
-        setSummary(summary, false);
-    }
-
-    private void setSummary(CharSequence summary, boolean autoSummary) {
-        mAutoSummary = autoSummary;
-        super.setSummary(summary);
-    }
 }

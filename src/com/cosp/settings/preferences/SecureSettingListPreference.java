@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aosip.owlsnest.preference;
+package com.cosp.settings.preferences;
 
 import android.content.Context;
 import android.text.TextUtils;
