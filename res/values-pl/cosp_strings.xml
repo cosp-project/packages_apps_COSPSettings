@@ -37,12 +37,6 @@
 
     <!--Status Bar -->
     <string name="statusbar_items_title">Ikony na pasku statusu</string>
-
-    <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Informacje o ładowaniu</string>
-    <string name="lockscreen_battery_info_summary">Wyświetlaj ustalane przez ładowarkę maks. napięcie, natężenie i obecną temperaturę baterii w trakcie ładowania na ekranie blokady</string>
-	
-	<!-- Network traffic -->
     <string name="traffic_title">Wskaźniki ruchu sieciowego</string>
     <string name="network_traffic_title">Ruch sieciowy</string>
     <string name="network_traffic_type">Wybierz typ aktywności</string>
@@ -51,11 +45,18 @@
     <string name="show_network_traffic_all">Obydwa</string>
     <string name="network_traffic_state_title">Pokaż statystyki sieci na pasku statusu</string>
     <string name="network_traffic_autohide_threshold_title">Próg ukrywania aktualnej prędkości sieci (KB/s)</string>
+    <string name="double_tap_sleep_gesture_title">Dwukrotnie kliknij na pasku statusu, aby uśpić ekran</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Informacje o ładowaniu</string>
+    <string name="lockscreen_battery_info_summary">Wyświetlaj ustalane przez ładowarkę maks. napięcie, natężenie i obecną temperaturę baterii w trakcie ładowania na ekranie blokady</string>
+    <string name="lockscreen_power_menu_disabled_title">Wyłącz menu zasilania na ekranie blokady z zabezpieczeniem</string>
+    <string name="lockscreen_power_menu_disabled_summary">Ta opcja wyłącza menu zasilania tylko na zabezpieczonym ekranie blokady</string>
+    <string name="lockscreen_qs_disabled_title">Zablokuj możliwość wysuwania paska przełączników</string>
+    <string name="lockscreen_qs_disabled_summary">Tylko na zabezpieczonym ekranie blokady</string>
 	
     <!-- Gestures -->	
     <string name="gesture_preference_cosp">Gesty AOSP</string>
-	
-    <!-- Navigation gestures -->
     <string name="gesture_settings_title">Gesty nawigacyjne</string>
     <string name="gesture_settings_summary">Użyj gestów przesunięcia w dół, by nawigować</string>
     <string name="use_bottom_gesture_title">Gesty przeciągnięcia</string>
@@ -64,9 +65,9 @@
     <string name="gesture_swipe_length_summary">Wysokość od dołu ekranu do momentu wykonania gestu</string>
     <string name="gesture_action_timeout_title">Opóźnienie po przeciągnięciu</string>
     <string name="gesture_action_timeout_summary">Opóźnienie przed rozpoczęciem przypisanej apki</string>
-    <string name="navbar_tuner_title">Przyciski nawigacji</string>
 	
     <!-- Toggle navigation bar -->
+    <string name="navbar_tuner_title">Przyciski nawigacji</string>
     <string name="navigation_bar_enabled_title">Włącz pasek nawigacji</string>
     <string name="navbar_info">Zrestartuj SystemUI w razie problemów</string>
 
