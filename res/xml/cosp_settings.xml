@@ -37,6 +37,14 @@
 
 	</PreferenceCategory>
 	
+	<!-- Active Edge -->
+    <Preference
+        android:key="active_edge_category"
+        android:icon="@drawable/dt_active_edge"
+        android:title="@string/active_edge_title"
+        android:summary="@string/active_edge_summary"
+        android:fragment="com.cosp.settings.fragments.ActiveEdge" />
+	
     <!-- Status Bar -->
     <Preference
             android:key="statusbar_category"
@@ -65,11 +73,4 @@
             android:fragment="com.cosp.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
-    <!-- Active Edge -->
-    <Preference
-        android:key="active_edge_category"
-        android:icon="@drawable/dt_active_edge"
-        android:title="@string/active_edge_title"
-        android:summary="@string/active_edge_summary"
-        android:fragment="com.cosp.settings.fragments.ActiveEdge" />
 </PreferenceScreen>
