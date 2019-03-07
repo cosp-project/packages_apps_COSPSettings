@@ -73,4 +73,11 @@
             android:fragment="com.cosp.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
+    <!-- Reading Mode -->
+    <Preference
+            android:key="readingmode_category"
+            android:title="@string/readingmode_title"
+            android:fragment="com.cosp.settings.fragments.ReadingModeSettings"
+            android:icon="@drawable/ic_settings_readingmode"/>
+
 </PreferenceScreen>
