@@ -25,6 +25,7 @@
     <string name="gestures_title">Gestures</string>
     <string name="navbar_title">Navigation Bar</string>
     <string name="active_edge_title">Active Edge</string>
+    <string name="readingmode_title">Reading Mode</string>
 	
     <!-- OTA -->
     <string name="updates_title">Updater</string>
@@ -121,4 +122,11 @@
     <string name="active_edge_app_select_title">Select app</string>
     <string name="active_edge_app_select_summary">Select an app to launch with the squeeze action</string>
     <string name="active_edge_footer_info">Not all squeeze actions within Active Edge have the capability to activate the display</string>
+
+    <!-- Reading mode -->
+    <string name="readingmode_mode_title">Activate manually</string>
+    <string name="readingmode_mode_enabled">Enable reading mode</string>
+    <string name="readingmode_mode_enabled_summary">Reading mode will optimise the screen colour temperature and calibration for text reading, which can improve the reading experience.</string>
+
+    
 </resources>
