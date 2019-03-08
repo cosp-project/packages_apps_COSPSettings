@@ -61,12 +61,12 @@ public class COSPSettings extends SettingsPreferenceFragment {
                     "android.hardware.sensor.assist")) {
                 getPreferenceScreen().removePreference(ActiveEdge);
             }
-
+        }
+		
         // DeviceParts
         if (!Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
             getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
-        }
-
+	}
     }
 
     @Override

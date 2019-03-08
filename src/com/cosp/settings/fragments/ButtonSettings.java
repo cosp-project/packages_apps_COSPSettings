@@ -38,7 +38,6 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 
-import com.cosp.settings.R;
 import com.cosp.settings.preferences.ActionFragment;
 import com.cosp.settings.preferences.CustomSeekBarPreference;
 
