@@ -34,6 +34,8 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class COSPSettings extends SettingsPreferenceFragment {
 
+    public static final int KEY_MASK_BACK = 0x02;
+
     private static final String ACTIVE_EDGE_CATEGORY = "active_edge_category";
 
     @Override
@@ -67,6 +69,15 @@ public class COSPSettings extends SettingsPreferenceFragment {
         if (!Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
             getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
 	}
+
+        //TODO: better hw key detect mechanism
+        final int deviceKeys = getResources().getInteger(
+                com.android.internal.R.integer.config_deviceHardwareKeys);
+        final boolean hasBackKey = (deviceKeys & KEY_MASK_BACK) != 0;
+        if (!hasBackKey) {
+            getPreferenceManager().findPreference("buttonsettings_category").setVisible(false);
+        }
+
     }
 
     @Override
