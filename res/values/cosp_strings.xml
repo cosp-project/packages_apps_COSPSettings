@@ -26,6 +26,7 @@
     <string name="navbar_title">Navigation Bar</string>
     <string name="active_edge_title">Active Edge</string>
     <string name="readingmode_title">Reading Mode</string>
+    <string name="button_title">Buttons</string>
 	
     <!-- OTA -->
     <string name="updates_title">Updater</string>

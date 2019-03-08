@@ -51,14 +51,14 @@
             android:fragment="com.cosp.settings.fragments.StatusbarSettings"
             android:icon="@drawable/ic_settings_statusbar"/>
 			
-	<!-- Lockscreen -->
+    <!-- Lockscreen -->
     <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
             android:fragment="com.cosp.settings.fragments.LockscreenSettings"
             android:icon="@drawable/ic_settings_lockscreen"/>
 			
-	<!-- Gestures -->
+    <!-- Gestures -->
     <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title"
@@ -71,6 +71,13 @@
             android:title="@string/navbar_title"
             android:fragment="com.cosp.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
+
+    <!-- Buttons -->
+    <Preference
+            android:key="buttonsettings_category"
+            android:title="@string/button_title"
+            android:fragment="com.cosp.settings.fragments.ButtonSettings"
+            android:icon="@drawable/ic_settings_buttons"/>
 
     <!-- Reading Mode -->
     <Preference
