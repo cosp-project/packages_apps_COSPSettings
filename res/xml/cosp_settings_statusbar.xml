@@ -33,7 +33,6 @@
 
     <Preference
             android:fragment="com.cosp.settings.fragments.ClockDateSettings"
-            android:icon="@drawable/ic_status_bar_clock"
             android:key="status_bar_clock"
             android:title="@string/status_bar_clock_title" />
 
