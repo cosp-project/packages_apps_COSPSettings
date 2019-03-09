@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
     <string name="cosp_settings_title">COSP Settings</string>
-	<string name="cosp_title">General COSP stuff</string>
+    <string name="cosp_title">General COSP stuff</string>
 
     <!-- Categories -->
     <string name="statusbar_title">Status Bar</string>
@@ -28,6 +28,7 @@
     <string name="readingmode_title">Reading Mode</string>
     <string name="button_title">Buttons</string>
     <string name="device_part_title">Device features</string>
+    <string name="notifications_title">Notifications</string>
 	
     <!-- OTA -->
     <string name="updates_title">Updater</string>

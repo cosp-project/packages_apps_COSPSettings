@@ -43,34 +43,6 @@
         android:title="@string/active_edge_title"
         android:fragment="com.cosp.settings.fragments.ActiveEdge"
         android:icon="@drawable/dt_active_edge" />
-	
-    <!-- Status Bar -->
-    <Preference
-            android:key="statusbar_category"
-            android:title="@string/statusbar_title"
-            android:fragment="com.cosp.settings.fragments.StatusbarSettings"
-            android:icon="@drawable/ic_settings_statusbar"/>
-			
-    <!-- Lockscreen -->
-    <Preference
-            android:key="lockscreen_category"
-            android:title="@string/lockscreen_title"
-            android:fragment="com.cosp.settings.fragments.LockscreenSettings"
-            android:icon="@drawable/ic_settings_lockscreen"/>
-			
-    <!-- Gestures -->
-    <Preference
-            android:key="gestures_category"
-            android:title="@string/gestures_title"
-            android:fragment="com.cosp.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
-			
-    <!-- Navigation Bar -->
-    <Preference
-            android:key="navigationbar_category"
-            android:title="@string/navbar_title"
-            android:fragment="com.cosp.settings.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
 
     <!-- Buttons -->
     <Preference
@@ -78,13 +50,6 @@
             android:title="@string/button_title"
             android:fragment="com.cosp.settings.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
-
-    <!-- Reading Mode -->
-    <Preference
-            android:key="readingmode_category"
-            android:title="@string/readingmode_title"
-            android:fragment="com.cosp.settings.fragments.ReadingModeSettings"
-            android:icon="@drawable/ic_settings_readingmode"/>
 
     <!-- Device Part -->
     <Preference
@@ -97,4 +62,46 @@
                  android:targetClass="org.omnirom.device.DeviceSettings"/>
     </Preference>
 
+    <!-- Gestures -->
+    <Preference
+            android:key="gestures_category"
+            android:title="@string/gestures_title"
+            android:fragment="com.cosp.settings.fragments.GestureSettings"
+            android:icon="@drawable/ic_settings_gestures"/>
+
+    <!-- Lockscreen -->
+    <Preference
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title"
+            android:fragment="com.cosp.settings.fragments.LockscreenSettings"
+            android:icon="@drawable/ic_settings_lockscreen"/>
+
+    <!-- Navigation Bar -->
+    <Preference
+            android:key="navigationbar_category"
+            android:title="@string/navbar_title"
+            android:fragment="com.cosp.settings.fragments.NavbarSettings"
+            android:icon="@drawable/ic_settings_navbar"/>
+
+    <!-- Notifications -->
+    <Preference
+            android:key="notifications_category"
+            android:title="@string/notifications_title"
+            android:fragment="com.cosp.settings.fragments.NotificationSettings"
+            android:icon="@drawable/ic_settings_notifications"/>
+
+    <!-- Reading Mode -->
+    <Preference
+            android:key="readingmode_category"
+            android:title="@string/readingmode_title"
+            android:fragment="com.cosp.settings.fragments.ReadingModeSettings"
+            android:icon="@drawable/ic_settings_readingmode"/>
+
+    <!-- Status Bar -->
+    <Preference
+            android:key="statusbar_category"
+            android:title="@string/statusbar_title"
+            android:fragment="com.cosp.settings.fragments.StatusbarSettings"
+            android:icon="@drawable/ic_settings_statusbar"/>
+			
 </PreferenceScreen>
