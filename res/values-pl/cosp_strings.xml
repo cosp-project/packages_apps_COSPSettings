@@ -20,10 +20,15 @@
 	<string name="cosp_title">Poprawki i dodatki COSP</string>
 
     <!-- Categories -->
-    <string name="lockscreen_title">Ekran blokady</string>
-    <string name="statusbar_title">Pasek statusu</string>
+    <string name="active_edge_title">Aktywne krawędzie</string>
+    <string name="button_title">Przyciski</string>
+    <string name="device_part_title">Funkcje dla danego urządzenia</string>
     <string name="gestures_title">Gesty</string>
+    <string name="lockscreen_title">Ekran blokady</string>
     <string name="navbar_title">Pasek nawigacji</string>
+    <string name="notifications_title">Powiadomienia</string>
+    <string name="readingmode_title">Tryb czytania</string>
+    <string name="statusbar_title">Pasek statusu</string>
 	
     <!-- OTA -->
     <string name="updates_title">Aktualizacje</string>
@@ -34,6 +39,8 @@
     <string name="reset">Reset</string>
     <string name="cancel">Anuluj</string>
     <string name="save">Zapisz</string>
+    <string name="other">Inne</string>
+    <string name="qs">Pasek przełączników</string>
 
     <!--Status Bar -->
     <string name="statusbar_items_title">Ikony na pasku statusu</string>
@@ -46,8 +53,41 @@
     <string name="network_traffic_state_title">Pokaż statystyki sieci na pasku statusu</string>
     <string name="network_traffic_autohide_threshold_title">Próg ukrywania aktualnej prędkości sieci (KB/s)</string>
     <string name="double_tap_sleep_gesture_title">Dwukrotnie kliknij na pasku statusu, aby uśpić ekran</string>
+    <string name="volte_icon_title">Ikona VoLTE/VoWiFi</string>
+    <string name="volte_icon_summary">Wyświetl ikonę VoLTE/VoWiFi</string>
+    <string name="show_fourg_icon_title">Ikona 4G</string>
+    <string name="show_fourg_icon_summary">Wyświetlaj ikonę 4G zamiast LTE</string> 
+    <string name="ignore_rssnr_title">Zignoruj RSSNR</string>
+    <string name="ignore_rssnr_summary">Zignoruj RSSNR w obliczaniu siły sygnału LTE</string>
+    <string name="status_bar_clock">Zegar i data</string>
+    <string name="status_bar_clock_summary">Skonfiguruj wyświetlanie się godziny i daty na pasku statusu</string>
+    <string name="status_bar_clock_title">Ustawienia zegara i daty</string>
+    <string name="status_bar_clock_show">Pokazuj godzinę i datę</string>
+    <string name="status_bar_clock_style_title">Styl zegara</string>
+    <string name="status_bar_clock_style_right">Po prawej</string>
+    <string name="status_bar_clock_style_center">Pośrodku</string>
+    <string name="status_bar_clock_style_left">Po lewej</string>
+    <string name="status_bar_am_pm_title">Styl AM/PM</string>
+    <string name="status_bar_am_pm_info">Włączony jest zegar 24-godzinny</string>
+    <string name="status_bar_am_pm_normal">Normalny</string>
+    <string name="status_bar_am_pm_small">Mały</string>
+    <string name="status_bar_am_pm_hidden">Ukryty (domyślnie)</string>
+    <string name="clock_seconds_display">Pokazuj sekundy</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Wyświetlaj własną datę obok zegara</string>
+    <string name="clock_date_display_none">Nie pokazuj</string>
+    <string name="clock_date_display_small">Mniejsza czcionka</string>
+    <string name="clock_date_display_normal">Normalna czcionka</string>
+    <string name="clock_date_style">Styl daty</string>
+    <string name="clock_date_style_normal">Normalny</string>
+    <string name="clock_date_style_lowercase">Małe litery</string>
+    <string name="clock_date_style_uppercase">Kapitaliki</string>
+    <string name="clock_date_format_custom">Własny format</string>
+    <string name="clock_date_format">Format daty</string>
+    <string name="clock_date_string_edittext_title">Koniecznie w DateFormat, np. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Wprowadź string</string>
 
-    <!-- Lockscreen battery info indicator  -->
+    <!-- Lockscreen -->
     <string name="lockscreen_battery_info_title">Informacje o ładowaniu</string>
     <string name="lockscreen_battery_info_summary">Wyświetlaj ustalane przez ładowarkę maks. napięcie, natężenie i obecną temperaturę baterii w trakcie ładowania na ekranie blokady</string>
     <string name="lockscreen_power_menu_disabled_title">Wyłącz menu zasilania na ekranie blokady z zabezpieczeniem</string>
@@ -66,9 +106,158 @@
     <string name="gesture_action_timeout_title">Opóźnienie po przeciągnięciu</string>
     <string name="gesture_action_timeout_summary">Opóźnienie przed rozpoczęciem przypisanej apki</string>
 	
-    <!-- Toggle navigation bar -->
+    <!-- Navigation bar -->
     <string name="navbar_tuner_title">Przyciski nawigacji</string>
     <string name="navigation_bar_enabled_title">Włącz pasek nawigacji</string>
     <string name="navbar_info">Zrestartuj SystemUI w razie problemów</string>
 
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart-piksele</string>
+    <string name="smart_pixels_summary">Oszczędzaj baterię, wyłączając dodatkowe piksele</string>
+    <string name="smart_pixels_enable_title">Włącz smart-piksele</string>
+    <string name="smart_pixels_enable_summary">Wyłącz część pikseli, aby oszczędzać energię</string>
+    <string name="smart_pixels_on_power_save_title">Włączaj automatycznie z wł. Oszczędzaniem baterii</string>
+    <string name="smart_pixels_on_power_save_summary">Włącz smart-piksele, gdy włączone jest Oszczędzanie baterii</string>
+    <string name="smart_pixels_percent">Procent pikseli do wyłączenia</string>
+    <string name="smart_pixels_shift_title">Ochrona przed wypaleniem</string>
+    <string name="smart_pixels_shift_summary">Zapobiega wypalaniu na urządzeniach OLED, przesuwając często piksele</string>
+    <string name="smart_pixels_warning_text">Smart-piksele to funkcja oszczędzająca baterię. W zależności od tego, jak dużo pikseli zdecydujesz się wyłączyć, możesz zauważyć odpowiednią poprawę działania telefonu na baterii. Aby móc komfortowo używać urządzenia, rekomendujemy ustawienie ilości wyłączonych pikseli na poziomie 75 procent.</string>
+
+    <string name="action_nothing">Brak akcji</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Ostatnie aplikacje</string>
+    <string name="action_search">Asystent</string>
+    <string name="action_voice_search">Wyszukiwanie głosowe</string>
+    <string name="action_launch_camera">Aparat</string>
+    <string name="action_last_app">Ostatnia aplikacja</string>
+    <string name="action_splitscreen">Dzielenie ekranu</string>
+    <string name="action_flashlight">Latarka</string>
+    <string name="action_clear_notifications">Wyczyszczenie powiadomień</string>
+    <string name="action_volume_panel">Panel głośności</string>
+    <string name="action_screen_off">Wyłączenie ekranu</string>
+    <string name="action_notifications">Powiadomienia</string>
+    <string name="action_power_menu">Menu zasilania</string>
+    <string name="action_screenshot">Zrzut ekranu</string>
+    <string name="action_qs_panel">Panel przełączników</string>
+    <string name="action_app_action">Aplikacja</string>
+    <string name="action_ringer_modes">Tryby dzwonka</string>
+
+    <!-- Active edge -->
+    <string name="active_edge_summary">Skonfiguruj ustawienia Aktywnych krawędzi</string>
+    <string name="active_edge_actions_title">Ściskanie</string>
+    <string name="active_edge_sensitivity_title">Czułość ściskania</string>
+    <string name="active_edge_wake_title">Wykonuj także na wyłączonym ekranie</string>
+    <string name="active_edge_wake_summary">Wywołuj daną akcję także wtedy, gdy ekran jest wyłączony</string>
+    <string name="active_edge_app_select_title">Wybierz aplikację</string>
+    <string name="active_edge_app_select_summary">Wybierz aplikację, którą chcesz uruchomić za pomocą ściskania</string>
+    <string name="active_edge_footer_info">Nie wszystkie akcje ściskania w funkcji Aktywne krawędzie mają możliwość włączenia ekranu</string>
+
+    <!-- Reading mode -->
+    <string name="readingmode_mode_title">Ręczna aktywacja</string>
+    <string name="readingmode_mode_enabled">Włącz Tryb czytania</string>
+    <string name="readingmode_mode_enabled_summary">Tryb czytania optymalizuje temperaturę barwową i dostosowuje ekran pod czytanie tekstów, co pozwala na poprawę wygody czytania.</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Suwak jasności</string>
+    <string name="qs_show_brightness_summary">Pokazuj suwak jasności w panelu przełączników</string>
+    <string name="qs_brightness_position_bottom_title">Suwak jasności na dole</string>
+    <string name="qs_brightness_position_bottom_summary">Pokazuj suwak jasności na dole paska przełączników</string>
+
+    <!-- Hardware keys -->
+    <string name="hardware_keys_category">Fizyczne przyciski</string>
+    <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_title">Czas podświetlania przycisków</string>
+    <string name="backlight_timeout_on">Zawsze</string>
+    <string name="backlight_timeout_3s">3 s</string>
+    <string name="backlight_timeout_default">5 s (domyślnie)</string>
+    <string name="backlight_timeout_10s">10 s</string>
+    <string name="backlight_timeout_15s">15 s</string>
+    <string name="backlight_timeout_20s">20 s</string>
+    <string name="backlight_timeout_30s">30 s</string>
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_title">Podświetlenie</string>
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_sw_title">Włącz podświetlenie</string>
+
+    <string name="button_backlight_on_touch_only_title">Tylko przy dotknięciu</string>
+    <string name="button_backlight_on_touch_only_summary">Włącz podświetlenie na wybrany okres czasu tylko wtedy, gdy dotkniesz przycisku</string>
+     <!-- HW Keys customization -->
+    <string name="picker_activities">Aktywności</string>
+    <string name="select_custom_app_title">Wybierz własną aplikację</string>
+    <string name="select_custom_activity_title">Wybierz własną aktywność</string>
+    <string name="profile_applist_title">Aplikacje</string>
+    <string name="choose_action_title">Wybierz akcję</string>
+    <string name="action_entry_default_action">Ustawienia domyślne</string>
+    <string name="action_entry_select_app">Wybierz aplikację</string>
+    <string name="action_entry_custom_action">Wybierz własną akcję</string>
+    <string name="hardware_keys_home_key_title">Przycisk Home</string>
+    <string name="hardware_keys_menu_key_title">Przycisk Menu</string>
+    <string name="hardware_keys_assist_key_title">Przycisk Szukaj</string>
+    <string name="hardware_keys_appswitch_key_title">Przycisk Przeglądania</string>
+    <string name="hardware_keys_back_key_title">Przycisk Wstecz</string>
+    <string name="hardware_keys_double_tap_summary">Ustaw akcję po podwójnym dotknięciu</string>
+    <string name="hardware_keys_single_tap_summary">Ustaw akcję po pojedynczym dotknięciu</string>
+    <string name="hardware_keys_long_press_summary">Ustaw akcję po długim naciśnięciu</string>
+    <string name="hardware_keys_single_tap_title">Akcja pojedynczego dotknięcia</string>
+    <string name="hardware_keys_long_press_title">Akcja długiego naciśnięcia</string>
+    <string name="hardware_keys_double_tap_title">Akcja podwójnego dotknięcia</string>
+    <string name="hardware_keys_disable_title">Wyłącz fizyczne przyciski</string>
+
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Przycisk Home w trakcie dzwonienia</string>
+    <string name="allow_incall_home_summary">Zezwalaj na użycie przycisku Home w trakcie dzwonienia</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Wybór koloru</string>
+    <string name="press_color_to_apply">Kliknij w kolor poniżej, aby zastosować</string>
+    <string name="set">Ustaw</string>
+    <string name="color_default">Domyślny</string>
+
+    <!-- Notifications -->
+    <string name="notification_light_settings">Dioda powiadomień</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_notifications">Pływające powiadomienia</string>
+    <string name="summary_heads_up_enabled">Pływające powiadomienia są włączone</string>
+    <string name="summary_heads_up_disabled">Pływające powiadomienia są wyłączone</string>
+    <string name="add_heads_up_package">Dodaj aplikację</string>
+    <string name="add_heads_up_stoplist_summary">Wyłącz pływające powiadomienia w tych aplikacjach</string>
+    <string name="add_heads_up_blacklist_summary">Wyłącz pływające powiadomienia z tych aplikacji</string>
+    <string name="heads_up_stoplist_title">Lista zatrzymywania</string>
+    <string name="heads_up_blacklist_title">Czarna lista</string>
+    <string name="profile_choose_app">Wybierz aplikację</string>
+    <string name="dialog_delete_title">Usuń</string>
+    <string name="dialog_delete_message">Usunąć wybrany element?</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Okres czasu</string>
+    <string name="heads_up_time_out_summary">Pływające powiadomienia będą wyświetlane przez <xliff:g id="number">%d</xliff:g> s</string>
+    <string name="heads_up_time_out_2sec">2 s</string>
+    <string name="heads_up_time_out_4sec">4 s</string>
+    <string name="heads_up_time_out_5sec">5 s</string>
+    <string name="heads_up_time_out_6sec">6 s</string>
+    <string name="heads_up_time_out_8sec">8 s</string>
+    <string name="heads_up_time_out_10sec">10 s</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Drzemka</string>
+    <string name="heads_up_snooze_summary_one_minute">Przesunięcie pływających powiadomień spowoduje zaprzestanie wyświetlania takich powiadomień z tej aplikacji przez 1 minutę</string>
+    <string name="heads_up_snooze_summary">Przesunięcie pływających powiadomień spowoduje zaprzestanie wyświetlania takich powiadomień z tej aplikacji przez <xliff:g id="number">%d</xliff:g> min</string>
+    <string name="heads_up_snooze_disabled_summary">Drzemka jest wyłączona</string>
+    <string name="heads_up_snooze_1min">1 minuta</string>
+    <string name="heads_up_snooze_5min">5 minut</string>
+    <string name="heads_up_snooze_10min">10 minut</string>
+    <string name="heads_up_snooze_15min">15 minut</string>
+    <string name="heads_up_snooze_20min">20 minut</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Dioda ładowania baterii</string>
+    <string name="battery_light_enable">Włącz</string>
+    <string name="battery_light_allow_on_dnd_title">Dioda baterii w trybie Nie przeszkadzać</string>
+    <string name="battery_light_low_blinking_title">Informuj diodą o słabej baterii</string>
+    <string name="battery_light_cat">Kolor diody w trakcie ładowania</string>
+    <string name="battery_light_low_color">Słaba bateria</string>
+    <string name="battery_light_medium_color">Bateria naładowana w połowie</string>
+    <string name="battery_light_full_color">Prawie pełna</string>
+    <string name="battery_light_reallyfull_color">W pełni naładowana (100)</string>
 </resources>
