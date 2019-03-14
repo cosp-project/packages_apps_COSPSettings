@@ -57,6 +57,7 @@
     <string name="volte_icon_summary">Display VoLTE/VoWiFi icon</string>
     <string name="show_fourg_icon_title">4G icon</string>
     <string name="show_fourg_icon_summary">Display 4G icon instead of LTE icon</string> 
+<<<<<<< HEAD
     <string name="ignore_rssnr_title">Ignore RSSNR</string>
     <string name="ignore_rssnr_summary">Ignore RSSNR in LTE signal strength calculation</string>
     <string name="status_bar_clock">Clock and Date</string>
@@ -87,6 +88,9 @@
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
     
+=======
+
+>>>>>>> parent of 7d4b432... Ignore RSSNR in LTE signal strength calculation [2/2]
     <!-- Lockscreen  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
