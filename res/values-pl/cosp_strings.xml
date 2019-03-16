@@ -94,6 +94,7 @@
     <string name="lockscreen_power_menu_disabled_summary">Ta opcja wyłącza menu zasilania tylko na zabezpieczonym ekranie blokady</string>
     <string name="lockscreen_qs_disabled_title">Zablokuj możliwość wysuwania paska przełączników</string>
     <string name="lockscreen_qs_disabled_summary">Tylko na zabezpieczonym ekranie blokady</string>
+    <string name="double_tap_sleep_lockscreen">Stuknij podwójnie, aby uśpić ekran (na ekranie blokady)</string>
 	
     <!-- Gestures -->	
     <string name="gesture_preference_cosp">Gesty AOSP</string>
@@ -105,6 +106,14 @@
     <string name="gesture_swipe_length_summary">Wysokość od dołu ekranu do momentu wykonania gestu</string>
     <string name="gesture_action_timeout_title">Opóźnienie po przeciągnięciu</string>
     <string name="gesture_action_timeout_summary">Opóźnienie przed rozpoczęciem przypisanej apki</string>
+    <string name="torch_long_press_power_gesture_title">Włączenie latarki</string>
+    <string name="torch_long_press_power_gesture_desc">Przytrzymaj przycisk Power na wyłączonym ekranie, by włączyć latarkę</string>
+    <string name="torch_long_press_power_timeout_title">Automatycznie wyłącz latarkę</string>
+    <string name="torch_long_press_power_timeout_never">Nigdy</string>
+    <string name="torch_long_press_power_timeout_1min">1 minuta</string>
+    <string name="torch_long_press_power_timeout_2min">2 minuty</string>
+    <string name="torch_long_press_power_timeout_5min">5 minut</string>
+    <string name="torch_long_press_power_timeout_10min">10 minut</string>
 	
     <!-- Navigation bar -->
     <string name="navbar_tuner_title">Przyciski nawigacji</string>
