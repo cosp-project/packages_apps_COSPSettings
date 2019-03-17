@@ -102,8 +102,8 @@ public class GestureSettings extends SettingsPreferenceFragment implements
             return true;
          }
         if (preference == mRecentsComponentType) {
-            int type = Integer.valueOf((String) objValue);
-            int index = mRecentsComponentType.findIndexOfValue((String) objValue);
+            int type = Integer.valueOf((String) newValue);
+            int index = mRecentsComponentType.findIndexOfValue((String) newValue);
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.RECENTS_COMPONENT, type);
             mRecentsComponentType.setSummary(mRecentsComponentType.getEntries()[index]);
