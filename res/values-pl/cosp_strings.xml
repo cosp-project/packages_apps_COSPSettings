@@ -57,8 +57,6 @@
     <string name="volte_icon_summary">Wyświetl ikonę VoLTE/VoWiFi</string>
     <string name="show_fourg_icon_title">Ikona 4G</string>
     <string name="show_fourg_icon_summary">Wyświetlaj ikonę 4G zamiast LTE</string> 
-    <string name="ignore_rssnr_title">Zignoruj RSSNR</string>
-    <string name="ignore_rssnr_summary">Zignoruj RSSNR w obliczaniu siły sygnału LTE</string>
     <string name="status_bar_clock">Zegar i data</string>
     <string name="status_bar_clock_summary">Skonfiguruj wyświetlanie się godziny i daty na pasku statusu</string>
     <string name="status_bar_clock_title">Ustawienia zegara i daty</string>
@@ -95,7 +93,11 @@
     <string name="lockscreen_qs_disabled_title">Zablokuj możliwość wysuwania paska przełączników</string>
     <string name="lockscreen_qs_disabled_summary">Tylko na zabezpieczonym ekranie blokady</string>
     <string name="double_tap_sleep_lockscreen">Stuknij podwójnie, aby uśpić ekran (na ekranie blokady)</string>
-	
+    <string name="screen_off_animation_title">Animacja wyłączania ekranu</string>
+    <string name="screen_off_animation_default">Domyślnie</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Skalowanie</string>
+		
     <!-- Gestures -->	
     <string name="gesture_preference_cosp">Gesty AOSP</string>
     <string name="gesture_settings_title">Gesty nawigacyjne</string>
@@ -114,7 +116,8 @@
     <string name="torch_long_press_power_timeout_2min">2 minuty</string>
     <string name="torch_long_press_power_timeout_5min">5 minut</string>
     <string name="torch_long_press_power_timeout_10min">10 minut</string>
-	
+    <string name="recents_component_type_title">Styl menu ostatnich aplikacji</string>
+
     <!-- Navigation bar -->
     <string name="navbar_tuner_title">Przyciski nawigacji</string>
     <string name="navigation_bar_enabled_title">Włącz pasek nawigacji</string>
@@ -216,6 +219,10 @@
     <string name="allow_incall_home_title">Przycisk Home w trakcie dzwonienia</string>
     <string name="allow_incall_home_summary">Zezwalaj na użycie przycisku Home w trakcie dzwonienia</string>
 
+    <!-- Volume keys control rint tone stream -->
+    <string name="volume_keys_control_ring_tone_title">Działanie przycisków głośności</string>
+    <string name="volume_keys_control_ring_tone_summary">Domyślnie przyciski kontrolują głośność multimediów. Zmiana przełącznika spowoduje, że będą one kontrolowały dźwięk dzwonka.</string>
+
     <!-- Color Picker -->
     <string name="dialog_color_picker">Wybór koloru</string>
     <string name="press_color_to_apply">Kliknij w kolor poniżej, aby zastosować</string>
@@ -269,4 +276,9 @@
     <string name="battery_light_medium_color">Bateria naładowana w połowie</string>
     <string name="battery_light_full_color">Prawie pełna</string>
     <string name="battery_light_reallyfull_color">W pełni naładowana (100)</string>
+
+    <!-- SystemUI Restart -->
+    <string name="systemui_restart_title">Wymagany restart SystemUI</string>
+    <string name="systemui_restart_message">Aby zastosować zmiany, wymagany jest restart SystemUI. Zrobić to teraz?</string>
+	<string name="systemui_restart_toast">Aby zastosować zmianę, wymagany jest restart SystemUI. Zostanie on wykonany za chwilę.</string>
 </resources>
