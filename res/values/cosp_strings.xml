@@ -84,6 +84,7 @@
     <string name="clock_date_format">Date format</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
+	<string name="tuner_show_auto_brightness">Adaptive brightness button</string>
     
     <!-- Lockscreen  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>

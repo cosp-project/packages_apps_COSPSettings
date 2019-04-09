@@ -69,6 +69,12 @@
         android:summary="@string/qs_brightness_position_bottom_summary"
         android:defaultValue="false"
         android:dependency="qs_show_brightness" />
+		
+    <com.cosp.settings.preferences.SecureSettingSwitchPreference
+        android:key="qs_show_auto_brightness"
+        android:title="@string/tuner_show_auto_brightness"
+        android:dependency="qs_show_brightness"
+        android:defaultValue="true" />
     </PreferenceCategory>
 
 
