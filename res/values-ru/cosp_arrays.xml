@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The COSP Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+
+     Translated to Russian with <3 by @pqhaz
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="smart_pixels_shift_times">
+        <item>15 секунд</item>
+        <item>30 секунд</item>
+        <item>1 минута</item>
+        <item>2 минуты</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>20 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+    </string-array>
+    <string-array name="clock_date_format_entries_values">
+        <item>дд/ММ/гг</item>
+        <item>ММ/дд/гг</item>
+        <item>ГГГГ-ММ-дд</item>
+        <item>ГГГГ-дд-ММ</item>
+        <item>дд-MM-гггг</item>
+        <item>MM-дд-гггг</item>
+        <item>МММ дд</item>
+        <item>МММ дд, гггг</item>
+        <item>MMMM дд, yyyy</item>
+        <item>EEE</item>
+        <item>EEE дд</item>
+        <item>EEE дд/MM</item>
+        <item>EEE MM/дд</item>
+        <item>EEE дд MMM</item>
+        <item>EEE MMM дд</item>
+        <item>EEE MMMM дд</item>
+        <item>EEEE дд/MM</item>
+        <item>EEEE MM/дд</item>
+        <item>@string/clock_date_format_custom</item>
+    </string-array>
+</resources>
