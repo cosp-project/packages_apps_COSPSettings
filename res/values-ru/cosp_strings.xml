@@ -250,8 +250,8 @@
     <string name="summary_heads_up_enabled">Поп-ап уведомления включены</string>
     <string name="summary_heads_up_disabled">Поп-ап уведомления отключены</string>
     <string name="add_heads_up_package">Добавить приложение</string>
-    <string name="add_heads_up_stoplist_summary">Отключить heads up уведомления в этих приложениях<</string>
-    <string name="add_heads_up_blacklist_summary">Отключить heads up уведомления c этих приложениях<</string>
+    <string name="add_heads_up_stoplist_summary">Отключить heads up уведомления в этих приложениях</string>
+    <string name="add_heads_up_blacklist_summary">Отключить heads up уведомления c этих приложениях</string>
     <string name="heads_up_stoplist_title">Стоплист</string>
     <string name="heads_up_blacklist_title">Блэклист</string>
     <string name="profile_choose_app">Выбрать приложение</string>
