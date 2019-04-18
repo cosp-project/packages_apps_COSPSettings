@@ -290,6 +290,13 @@
     <string name="battery_light_full_color">Почти полный заряд батареи</string>
     <string name="battery_light_reallyfull_color">Полный заряд (100%) батареи</string>
 	
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Набор иконок</string>
+    <string name="recents_icon_pack_summary">Применить набор иконок для панели недавних приложений</string>
+    <string name="no_iconpacks_summary">Нет установленных наборов иконок</string>
+    <string name="dialog_pick_iconpack_title">Выбрать набор иконок</string>
+    <string name="default_iconpack_title">Стандартные иконки</string>
+	
     <!-- SystemUI Restart -->
     <string name="systemui_restart_title">Перезагрузка SystemUI обязательна.</string>
     <string name="systemui_restart_message">Чтобы полностью активировать все изменения, перезагрузка SystemUI обязательна. Перезагрузить SystemUI сейчас?</string>
