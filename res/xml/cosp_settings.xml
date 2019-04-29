@@ -43,6 +43,13 @@
         android:title="@string/active_edge_title"
         android:fragment="com.cosp.settings.fragments.ActiveEdge"
         android:icon="@drawable/dt_active_edge" />
+		
+    <!-- App ops -->
+    <Preference
+        android:key="app_ops_summary"
+        android:title="@string/app_ops_settings"
+        android:fragment="com.android.settings.applications.appops.AppOpsSummary"
+        android:icon="@drawable/ic_settings_appops" />
 
     <!-- Buttons -->
     <Preference
