@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
     <string name="cosp_settings_title">Impostazioni COSP</string>
-    <string name="cosp_title">Cose generali COSP</string>
+    <string name="cosp_title">Impostazioni generali COSP</string>
 
     <!-- Categories -->
     <string name="active_edge_title">Active Edge</string>
@@ -73,7 +73,7 @@
     <string name="clock_seconds_display">Mostra secondi</string>
     <string name="clock_date_display">Data</string>
     <string name="clock_date_display_summary">Mostra la data prima dell\'ora</string>
-    <string name="clock_date_display_none">Mostra\Non mostrare</string>
+    <string name="clock_date_display_none">Non mostrare</string>
     <string name="clock_date_display_small">Dimensione font piccola</string>
     <string name="clock_date_display_normal">Dimensione font normale</string>
     <string name="clock_date_style">Stile data</string>
@@ -119,13 +119,13 @@
     <!-- Navigation bar -->
     <string name="navbar_tuner_title">Pulsanti di navigazione</string>
     <string name="navigation_bar_enabled_title">Abilita barra di navigazione</string>
-    <string name="navbar_info">Restart SystemUI if you have problems after enabling/disabling navigation bar</string>
+    <string name="navbar_info">Riavvia il SystemUI se hai problemi dopo aver attivato/disattivato la barra di navigazione</string>
 
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Smart Pixels</string>
-    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
-    <string name="smart_pixels_enable_title">Enable Smart Pixels</string>
-    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
+    <string name="smart_pixels_summary">Salva batteria spegnendo i pixel superflui</string>
+    <string name="smart_pixels_enable_title">Abilita Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Spegni i pixel per ridurre il consumo</string>
     <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
     <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
     <string name="smart_pixels_percent">Percent of pixels to disable</string>
