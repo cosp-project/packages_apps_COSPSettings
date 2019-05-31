@@ -50,13 +50,6 @@
             android:title="@string/statusbar_title"
             android:fragment="com.cosp.settings.fragments.StatusbarSettings"
             android:icon="@drawable/ic_settings_statusbar"/>
-		
-    <!-- App ops -->
-    <Preference
-        android:key="app_ops_summary"
-        android:title="@string/app_ops_settings"
-        android:fragment="com.android.settings.applications.appops.AppOpsSummary"
-        android:icon="@drawable/ic_settings_appops" />
 
     <!-- Buttons -->
     <Preference
