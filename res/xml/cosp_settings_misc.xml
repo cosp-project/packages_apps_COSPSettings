@@ -23,8 +23,13 @@
     <Preference
         android:key="app_ops_summary"
         android:title="@string/app_ops_settings"
-        android:fragment="com.android.settings.applications.appops.AppOpsSummary"
-        android:icon="@drawable/ic_settings_appops" />
+        android:fragment="com.android.settings.applications.appops.AppOpsSummary" />
+		
+    <!-- Reading Mode -->
+    <Preference
+        android:key="readingmode_category"
+        android:title="@string/readingmode_title"
+        android:fragment="com.cosp.settings.fragments.ReadingModeSettings" />
 
     <!-- Vibration options -->
     <PreferenceCategory
