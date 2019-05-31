@@ -27,6 +27,7 @@
     <string name="lockscreen_title">Lock Screen</string>
     <string name="navbar_title">Navigation Bar</string>
     <string name="notifications_title">Notifications</string>
+    <string name="misc_title">Miscellaneous</string>
     <string name="readingmode_title">Reading Mode</string>
     <string name="statusbar_title">Status Bar</string>
 	

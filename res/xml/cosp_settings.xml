@@ -44,6 +44,13 @@
         android:fragment="com.cosp.settings.fragments.ActiveEdge"
         android:icon="@drawable/dt_active_edge" />
 		
+    <!-- Status Bar -->
+    <Preference
+            android:key="statusbar_category"
+            android:title="@string/statusbar_title"
+            android:fragment="com.cosp.settings.fragments.StatusbarSettings"
+            android:icon="@drawable/ic_settings_statusbar"/>
+		
     <!-- App ops -->
     <Preference
         android:key="app_ops_summary"
@@ -90,13 +97,6 @@
             android:fragment="com.cosp.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
-    <!-- Notifications -->
-    <Preference
-            android:key="notifications_category"
-            android:title="@string/notifications_title"
-            android:fragment="com.cosp.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/>
-
     <!-- Reading Mode -->
     <Preference
             android:key="readingmode_category"
@@ -104,11 +104,18 @@
             android:fragment="com.cosp.settings.fragments.ReadingModeSettings"
             android:icon="@drawable/ic_settings_readingmode"/>
 
-    <!-- Status Bar -->
+    <!-- Notifications -->
     <Preference
-            android:key="statusbar_category"
-            android:title="@string/statusbar_title"
-            android:fragment="com.cosp.settings.fragments.StatusbarSettings"
-            android:icon="@drawable/ic_settings_statusbar"/>
+            android:key="notifications_category"
+            android:title="@string/notifications_title"
+            android:fragment="com.cosp.settings.fragments.NotificationSettings"
+            android:icon="@drawable/ic_settings_notifications"/>
+			
+    <!-- Misc -->
+    <Preference
+            android:key="misc_category"
+            android:title="@string/misc_title"
+            android:fragment="com.cosp.settings.fragments.MiscSettings"
+            android:icon="@drawable/ic_settings_misc"/>
 			
 </PreferenceScreen>
