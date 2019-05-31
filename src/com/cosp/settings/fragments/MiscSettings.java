@@ -34,16 +34,24 @@ import android.view.ViewGroup;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
+import com.cosp.settings.utils.TelephonyUtils;
 
 import com.cosp.settings.R;
 
 public class MiscSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+			
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.cosp_settings_misc);
+		final PreferenceScreen prefSet = getPreferenceScreen();
+		PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+		if (!TelephonyUtils.isVoiceCapable(getActivity())) {
+			prefSet.removePreference(incallVibCategory);
+        }
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
     }
