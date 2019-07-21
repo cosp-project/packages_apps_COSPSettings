@@ -82,6 +82,8 @@
     <string name="clock_date_format">Formát data</string>
     <string name="clock_date_string_edittext_title">Musí být ve formátu např. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Vložte textový řetězec</string>
+    <string name="data_disabled_icon_title">Zobrazit ikonu při vypnutí dat</string>
+    <string name="data_disabled_icon_summary">Zobrazit křížek na ikoně signálu sítě při vypnutých datech</string>
     <!-- Lockscreen  -->
     <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
     <string name="lockscreen_battery_info_summary">Zobrazit maximální proud, napětí a teplotu baterie při nabíjení na zamykací obrazovce</string>

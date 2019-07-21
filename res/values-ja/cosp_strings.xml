@@ -49,7 +49,7 @@
     <string name="show_network_traffic_down">受信</string>
     <string name="show_network_traffic_all">送信と受信</string>
     <string name="network_traffic_state_title">通信速度を表示</string>
-    <string name="network_traffic_autohide_threshold_title">自動非表示の通信速度しきい値 (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">自動非表示にするしきい値 (KB/s)</string>
     <string name="double_tap_sleep_gesture_title">ダブルタップでスリープ</string>
     <string name="volte_icon_title">VoLTE/VoWiFi アイコン</string>
     <string name="volte_icon_summary">VoLTE/VoWiFi アイコンを表示する</string>
@@ -82,11 +82,13 @@
     <string name="clock_date_format">日付の形式</string>
     <string name="clock_date_string_edittext_title">DateFormat 形式で入力して下さい 例. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">文字列を入力</string>
+    <string name="data_disabled_icon_title">データ通信無効アイコン</string>
+    <string name="data_disabled_icon_summary">モバイルデータ無効時にシグナルバーの隣に×を表示する</string>
     <!-- Lockscreen  -->
     <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
     <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の情報を表示する</string>
     <string name="lockscreen_power_menu_disabled_title">ロック画面で電源メニュー無効化</string>
-    <string name="lockscreen_power_menu_disabled_summary">セキュアなロック画面で電源メニューを非表示にする</string>
+    <string name="lockscreen_power_menu_disabled_summary">保護されたロック画面で電源メニューを非表示にする</string>
     <string name="lockscreen_qs_disabled_title">ロック画面では無効</string>
     <string name="lockscreen_qs_disabled_summary">保護されたロック画面上でのクイック設定の展開を無効にする</string>
     <string name="double_tap_sleep_lockscreen">ダブルタップでスリープ</string>
@@ -247,10 +249,10 @@
     <string name="heads_up_snooze_15min">15分</string>
     <string name="heads_up_snooze_20min">20分</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">バッテリー充電時のライト</string>
+    <string name="battery_light_settings">バッテリーライト</string>
     <string name="battery_light_enable">有効</string>
-    <string name="battery_light_allow_on_dnd_title">マナーモード中のバッテリーライト</string>
-    <string name="battery_light_low_blinking_title">バッテリ低下時のライト点滅</string>
+    <string name="battery_light_allow_on_dnd_title">マナーモード中のライト</string>
+    <string name="battery_light_low_blinking_title">低残量時のライト点滅</string>
     <string name="battery_light_cat">充電中のバッテリーの色</string>
     <string name="battery_light_low_color">残量低下</string>
     <string name="battery_light_medium_color">中程度</string>
